@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 86</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-86" transform="translate(5.000000, 5.000000)" stroke="#FFFFFF" stroke-width="10">
+            <path d="M104,79.5 C104,93.024 93.024,104 79.5,104 C65.98825,104 55,93.024 55,79.5 C55,65.976 65.98825,55 79.5,55 C93.024,55 104,65.976 104,79.5 L104,79.5 Z" id="Stroke-3175"></path>
+            <path d="M0,79 L24,79" id="Stroke-3176"></path>
+            <path d="M23,135 L40,118" id="Stroke-3177"></path>
+            <path d="M79,158 L79,134" id="Stroke-3178"></path>
+            <path d="M135,135 L118,118" id="Stroke-3179"></path>
+            <path d="M158,79 L134,79" id="Stroke-3180"></path>
+            <path d="M135,23 L118,40" id="Stroke-3181"></path>
+            <path d="M79,0 L79,24" id="Stroke-3182"></path>
+            <path d="M23,23 L40,40" id="Stroke-3183"></path>
+        </g>
+    </g>
+</svg>
