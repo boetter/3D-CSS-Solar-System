@@ -23,17 +23,18 @@
   <meta property="og:description" content="Description Here">
   <meta property="og:site_name" content="Site Name, i.e. Moz">
   <meta property="fb:admins" content="Facebook numeric ID">
-  <link href="https://fonts.googleapis.com/css?family=Karla:400,700|PT+Serif|Roboto:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700|PT+Serif|Roboto:700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" media="all" href="css/app.css">
-  <link rel="stylesheet" media="all" href="css/letter-spacing.css">
 </head>
 <body>
 <div class="out">
 
+
 <!-- bg-->
 <div class="bg">
-  <div class="bg__item fade-6 visible js-bg-item" style="background-image: url(img/bg.jpg);"></div>
+  <div class="bg__item visible js-bg-item fade-6" style="background-image: url(img/bg.jpg);"></div>
+  <div class="bg__item js-bg-item fade-4" style="background-image: url(img/nasa.jpg);"></div>
 </div>
 <!-- end bg -->
 
@@ -58,19 +59,19 @@
 
 <!-- PASTE YOUR HTML BLOCKS HERE -->
 <!-- block 1-->
-<div class="block inline arrow profile" data-animate>
+<div class="block inline arrow profile" data-animate data-bg="1">
   <div class="ava" data-animate>
     <img class="img" src="img/user.png">
   </div>
   <div class="container sm" data-animate>
-    <div class="text">Hej! Jeg hedder Jacob og har to nysgerrige drenge 👨‍👦‍👦</div>
+    <div class="text">Hej! Jeg hedder Jacob og er far til to nysgerrige drenge på fem og to 👨‍👦‍👦</div>
   </div>
 </div>
 <!-- end block 1 -->
 
 
 <!-- block 2 -->
-<div class="block inline" data-animate>
+<div class="block inline" data-animate data-bg="1">
   <div class="container sm" data-animate>
     <div class="text">De spørger om alt og for det meste kan YouTube stille deres videnstørst. Men nogle gange vil man også gerne selv forklare og ikke bare overlade dem til en fremmeds videoforklaring.</div>
   </div>
@@ -78,7 +79,7 @@
 <!-- end block 2 -->
 
 <!-- block 2 -->
-<div class="block inline" data-animate>
+<div class="block inline" data-animate data-bg="1">
   <div class="container sm" data-animate>
     <div class="text">Derfor begyndte jeg at lede efter et sted med "tavler" jeg selv kunne pege på mens jeg forklarer. Jeg fandt intet 😢</div>
   </div>
@@ -86,7 +87,7 @@
 <!-- end block 2 -->
 
 <!-- block 2 -->
-<div class="block inline" data-animate>
+<div class="block inline" data-animate data-bg="1">
   <div class="container sm" data-animate>
     <div class="text">Til min redning kom alverdens små open source apps som kunne tilpasses så de blev tilpas simple. De er jo oftest også på engelsk, så jeg har også oversat dem til dansk.</div>
   </div>
@@ -94,7 +95,7 @@
 <!-- end block 2 -->
 
 <!-- block 2 -->
-<div class="block inline" data-animate>
+<div class="block inline" data-animate data-bg="1">
   <div class="container sm" data-animate>
     <div class="text">Den er den slags små interaktive tavler jeg tænker at samle her. Små interaktive sider man kan trykke på mens der forklares. Jeg samler dem her på siden 👇</div>
   </div>
@@ -103,7 +104,7 @@
 
 
 <!-- block 4 -->
-<div class="block" data-animate>
+<div class="block" data-animate data-bg="2">
   <div class="container lg">
     <div class="mb-35">
       <div class="theme green mb-20" data-animate>
@@ -155,7 +156,7 @@
 <!-- end block 4 -->
 
 <!-- block 3 -->
-<div class="block" data-animate>
+<div class="block" data-animate data-bg="1">
   <div class="container">
     <div class="mb-60">
       <div class="title" data-animate>Det var dét. Altså, indtil videre..</div>
@@ -190,7 +191,7 @@
 
 
 <!-- block 26-->
-<div class="block arrow profile" data-animate>
+<div class="block arrow profile" data-animate data-bg="1">
   <div class="ava" data-animate>
     <img class="img" src="img/user.png">
   </div>
@@ -240,27 +241,12 @@
 <!-- footer-->
 <footer class="footer fixed js-footer">
   <div class="footer__left" data-animate>
-    <div class="footer__menu">
-      <a class="footer__link" href="#">Forklaringer</a>
-      <a class="footer__link" href="#">Vær med</a>
-    </div>
-    <div class="footer__social social">
-      <a class="social__link" href="#">
-        <svg class="icon icon-facebook">
-          <use xlink:href="#icon-facebook"></use>
-        </svg>
-      </a>
-      <a class="social__link" href="#">
-        <svg class="icon icon-twitter">
-          <use xlink:href="#icon-twitter"></use>
-        </svg>
-      </a>
-    </div>
+  
   </div>
   <div class="footer__right" data-animate>
     <div class="footer__copyright copyright">
-      <p>Et non-profit sideprojekt fra</p>
-      <p>Jacob Bøtter</p>
+      <p>Bare for sjov af</p>
+      <p><a class="footer__link" href="http://jacob.boetter.dk">Jacob Bøtter</a></p>
     </div>
   </div>
 </footer>
