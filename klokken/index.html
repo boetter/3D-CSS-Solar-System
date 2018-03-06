@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Forklar.com – Klokken</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/sliders.css">
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Montserrat'>
+
+    <meta name="description" content="En simpel side til at forklare klokken, hvad viser viserne?">
+
+    <!-- p5libraries start -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+    <!-- p5libraries end -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- web app apple start -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <!-- web app apple end -->
+
+<!-- Prevent page to bounce for tablet -->
+     <script src="inobounce.js"></script>
+
+</head>
+
+<body>
+    <div class="toosmall">
+        <p>Du skal lige gøre dit vindue lidt større, eller gå til computer eller tablet.</p>
+        <p>Tak =)</p>
+    </div>
+
+    <header>
+        <h1>Forklar klokken</h1>
+        <p>Tak til <a href="https://github.com/arnofaure/learningtime">Arno Faure</a> for koden. Find flere forklaringer på <a href="https://forklar.com/">Forklar.com</a>.</p>
+    </header>
+
+    <div class="container">
+        <div class="clock">
+            <div id="myCanvas"></div>
+        </div>
+
+        <div class="toolBox">
+            <button type="button" name="Learn Button" id="learnBtn">Leg med klokken</button>
+            <button type="button" name="Show Hours" id="hourBtn">Skjul timer</button>
+            <button type="button" name="Show Min" id="minBtn">Vis minutter</button>
+          
+            <div id="slidersWrapper" class="display-none">
+                <p class="hourColor">Timer</p>
+                <input type="range" id="hourSlider" min="0" max="12" step=".5" value="0">
+                <p class="minColor">Minutter</p>
+                <input type="range" id="minSlider" min="0" max="60" step="1" value="0">
+                <!-- <input type="range" id="minSlider" min="0" max="720" step=".5" value="0"> -->
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

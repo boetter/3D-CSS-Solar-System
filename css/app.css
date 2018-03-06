@@ -1638,7 +1638,23 @@ button {
 }
 
 .theme.blue .theme-text {
-  color: #2ff9ff;
+  color: #705cff;
+}
+
+.theme.brown .theme-preview {
+  background-image: linear-gradient(223deg, #A68259, #765534);
+}
+
+.theme.brown .theme-text {
+  color: #765534;
+}
+
+.theme.yellow .theme-preview {
+  background-image: linear-gradient(223deg, #F7B727, #EEDC33);
+}
+
+.theme.yellow .theme-text {
+  color: #F7B727;
 }
 
 .theme.red .theme-preview {
