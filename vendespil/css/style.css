@@ -3,12 +3,10 @@
           box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-}
+html, body {margin: 0; height: 100%; overflow: hidden}
 
 body {
-  background: #414BFF;
+  background: #705CFF;
   min-height: 100%;
   font-family: "Montserrat", sans-serif;
 }
